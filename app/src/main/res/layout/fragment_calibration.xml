@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <!-- Eingabe + Button für Druck 0,5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input0_5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0.5"
+                android:hint="0,5 bar"
+                android:inputType="numberDecimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCal0_5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Kalibrieren"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeWidth="2dp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@android:color/holo_red_dark"
+                android:layout_marginStart="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Eingabe + Button für Druck 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="1.0"
+                android:hint="1,0 bar"
+                android:inputType="numberDecimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCal1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Kalibrieren"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeWidth="2dp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@android:color/holo_red_dark"
+                android:layout_marginStart="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Eingabe + Button für Druck 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2.0"
+                android:hint="2,5 bar"
+                android:inputType="numberDecimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCal2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Kalibrieren"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeWidth="2dp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@android:color/holo_red_dark"
+                android:layout_marginStart="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Eingabe + Button für Druck 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="3.0"
+                android:hint="3,0 bar"
+                android:inputType="numberDecimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCal3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Kalibrieren"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeWidth="2dp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@android:color/holo_red_dark"
+                android:layout_marginStart="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <!-- Eingabe + Button für Druck 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="4.0"
+                android:hint="4,0 bar"
+                android:inputType="numberDecimal" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCal4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="Kalibrieren"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeWidth="2dp"
+                app:cornerRadius="8dp"
+                app:strokeColor="@android:color/holo_red_dark"
+                android:layout_marginStart="8dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:layout_marginBottom="8dp" />
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonInterpolate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interpolieren"
+            android:enabled="false"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeWidth="2dp"
+            app:cornerRadius="8dp"
+            app:strokeColor="@android:color/holo_red_dark"
+            android:layout_marginTop="16dp"
+            android:insetTop="6dp"
+            android:insetBottom="6dp" />
+
+        <TextView
+            android:id="@+id/textInterpolationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noch nicht interpoliert"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonResetVisuals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visual Reset"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_marginTop="12dp"
+            android:insetTop="6dp"
+            android:insetBottom="6dp" />
+
+
+    </LinearLayout>
+</ScrollView>

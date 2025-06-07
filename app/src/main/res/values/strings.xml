@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReifendruckApp2</string>
+    <string name="z_b_1_0_bar">z. B. 1.0 bar</string>
+    <string name="z_b_2_5_bar">z. B. 2.5 bar</string>
+    <string name="kalibrieren">Kalibrieren</string>
+    <string name="z_b_4_0_bar">z. B. 4.0 bar</string>
+    <string name="kalibrieren2">Kalibrieren</string>
+</resources>
